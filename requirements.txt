@@ -1,3 +1,6 @@
 ### The following scripts were performed on Jupyter notebooks as a testing environment. The following Python libraries were used: 
 - Numpy
-- 
+- Matplotlib
+- Pandas 
+- Random
+- Seaborn
