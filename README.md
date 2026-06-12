@@ -56,5 +56,5 @@ pip install -r requirements.txt
 
 ### Running the Analytics Engine
 Launch the Jupyter notebooks to interact with the models:
-```bash
-jupyter no
+<!--```bash
+jupyter no -->
