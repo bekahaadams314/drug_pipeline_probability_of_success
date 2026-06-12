@@ -1,6 +1,14 @@
-### The following scripts were performed on Jupyter notebooks as a testing environment. The following Python libraries were used: 
-- Numpy
-- Matplotlib
-- Pandas 
-- Random
-- Seaborn
+# Data Wrangling and Vectorized Computations
+numpy>=1.22.0
+pandas>=1.4.0
+
+# Statistical Analysis & Modeling
+scipy>=1.8.0
+scikit-learn>=1.0.0
+
+# Visualizations and Plotting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Environment
+jupyter>=1.0.0
