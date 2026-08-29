@@ -30,7 +30,7 @@ The financial analysis module utilizes Python classes to encapsulate historical 
   * **Defensive / Income:** Low-volatility, dividend-yielding architectures optimized for capital preservation.
   * **Socially Responsible (ESG):** Constrained optimization filtering for non-financial compliance boundaries without degrading the efficient frontier.
 
-### 2. Pharmaceutical R&D Stochastic Modeling (`monte_carlo_sims_practice.ipynb`)
+### 2. Pharmaceutical R&D Stochastic Modeling (`monte_carlo_sims_determine_drug_probability_of_success.ipynb`)
 To model the highly volatile path of binary drug development pipelines, the system applies Monte Carlo frameworks to calculate cumulative phase-gate risk.
 
 * **Cumulative Probability of Success ($PoS_{cum}$):** For a drug moving through $n$ independent regulatory phases (Phase I, Phase II, Phase III, Regulatory Review):
