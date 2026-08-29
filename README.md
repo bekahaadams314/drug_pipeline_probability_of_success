@@ -43,18 +43,4 @@ To model the highly volatile path of binary drug development pipelines, the syst
 * **Libraries:** NumPy (Vectorized Matrix Computations), Pandas (Data Aggregation & Wrangling), Matplotlib/Seaborn (Risk Distribution Visualizations)
 * **Environment:** Jupyter Notebooks, Git
 
-## Getting Started
 
-### Prerequisites
-Ensure you have Python 3.8+ installed. Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com
-cd drug_pipeline_probability_of_success
-pip install -r requirements.txt
-```
-
-### Running the Analytics Engine
-Launch the Jupyter notebooks to interact with the models:
-<!--```bash
-jupyter no -->
