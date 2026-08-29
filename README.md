@@ -1,7 +1,7 @@
 # Portfolio Risk Analytics for R&D Pipeline
 
 ## Summary:
-This repository presents a simulation framework designed to model stage-gated clinical trial progression, evaluate expected portfolio Net Present Value (NPV) distributions, and quantify tail risk using 95% Value at Risk (VaR). We explore a classic Monte Carlo approach and a cleaner object-oriented approach. 
+This project presents a simulation framework designed to model stage-gated clinical trial progression, evaluate expected portfolio Net Present Value (NPV) distributions, and quantify tail risk using 95% Value at Risk (VaR). =
 
 ## 1. Mathematical Formulation:
 
@@ -11,6 +11,8 @@ Clinical trials operate as a semi-Markov process over sequential phases $k \in \
 The cumulative probability of a candidate reaching commercial launch after stage $N$ is expressed as:
 
 $$P(\text{Approval}) = \prod_{k=1}^{N} p_k$$
+
+For this project, I thought it would be interesting to use a Monte Carlo process where each stage is represented as a probability distribution. These are values that I just looked up on Google to get a sense of the success of each stage and the probability behavior realistically. 
 
 ### Discounted Expected Valuation:
 Given a discount rate $r$, expected commercial market payoff $V$, and stage completion times $\tau_k$, the expected cumulative present value of candidate $i$ factors in intermediate abandonment states:
@@ -35,6 +37,8 @@ $$\text{VaR}_\alpha = \inf \{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \}$$
 ## Tools used for this project:
 * **Languages:** Python 
 * **Libraries:** NumPy, Pandas, Matplotlib/Seaborn
-* **Environment:** Jupyter Notebooks, Git
+* **Environment:** Jupyter Notebooks
+
+I am currently in the process of updating with Python scripts instead of a notebook environment so you can try it out for yourself!
 
 
