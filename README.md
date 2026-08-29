@@ -28,9 +28,9 @@ $$\text{VaR}_\alpha = \inf \{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \}$$
 
 ## 2. Key Findings (Open to Suggestions):
 
-* **Phase II Bottleneck:** Sensitivity analysis indicates that Phase II transition probability accounts for $62\%$ of overall portfolio NPV variance.
-* **Risk Thresholding:** Across $10,000$ Monte Carlo trials, the portfolio $95\%$ VaR converges at $48.2M, driven primarily by simultaneous late-stage (Phase III) pipeline failures.
-* **Optimal Stopping:** Incorporating interim dynamic decision checkpoints reduces projected portfolio loss variance by $18\%$.
+* **Phase II Bottleneck:** Sensitivity analysis indicates that Phase II transition probability accounts for 62% of overall portfolio NPV variance.
+* **Risk Thresholding:** Across 10,000 Monte Carlo trials, the portfolio 95% VaR converges at $48.2M, driven primarily by simultaneous late-stage (Phase III) pipeline failures.
+* **Optimal Stopping:** Incorporating interim dynamic decision checkpoints reduces projected portfolio loss variance by 18%.
   
 ## Technical Stack:
 * **Languages:** Python 
