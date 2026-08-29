@@ -39,6 +39,4 @@ $$\text{VaR}_\alpha = \inf \{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \}$$
 * **Libraries:** NumPy, Pandas, Matplotlib/Seaborn
 * **Environment:** Jupyter Notebooks
 
-I am currently in the process of updating with Python scripts instead of a notebook environment so you can try it out for yourself!
-
 
