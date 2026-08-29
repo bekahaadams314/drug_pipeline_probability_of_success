@@ -24,7 +24,7 @@ To quantify downside tail exposure across a portfolio of $M$ independent or corr
 
 The portfolio $\text{VaR}_\alpha$ at confidence level $\alpha \in (0, 1)$ represents the infimum loss threshold such that the tail probability of exceeding that loss does not surpass $1 - \alpha$:
 
-$$\text{VaR}_\alpha = \inf \left\{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \right\}$$
+$$\text{VaR}_\alpha = \inf \{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \}$$
 
 ## 2. Key Findings (Open to Suggestions):
 
