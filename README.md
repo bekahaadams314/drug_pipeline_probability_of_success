@@ -32,7 +32,7 @@ $$\text{VaR}_\alpha = \inf \{ l \in \mathbb{R} : P(L > l) \le 1 - \alpha \}$$
 * **Risk Thresholding:** Across 10,000 Monte Carlo trials, the portfolio 95% VaR converges at $48.2M, driven primarily by simultaneous late-stage (Phase III) pipeline failures.
 * **Optimal Stopping:** Incorporating interim dynamic decision checkpoints reduces projected portfolio loss variance by 18%.
   
-## Technical Stack:
+## Tools used for this project:
 * **Languages:** Python 
 * **Libraries:** NumPy, Pandas, Matplotlib/Seaborn
 * **Environment:** Jupyter Notebooks, Git
