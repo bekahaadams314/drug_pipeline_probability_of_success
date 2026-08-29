@@ -1,6 +1,6 @@
 # Multi-Asset & R&D Pipeline Portfolio Risk Analytics
 
-## Executive Summary
+## Summary
 This repository contains a modular, object-oriented Python framework designed to simulate, stress-test, and quantify risk across two distinct asset domains: financial investment portfolios and multi-stage pharmaceutical R&D pipelines. By decoupling the simulation engine from asset specifics, the framework leverages stochastic methods to evaluate downside risk, volatility, and capital allocation efficiencies. This module also contains a Monte Carlo simulation script that determines the Probability of Success (PoS) and Valuation of a hypothetical R&D Portfolio. 
 
 There are different types of portfolios to keep in mind: 
@@ -14,9 +14,9 @@ There are different types of portfolios to keep in mind:
 
 ## Repository Structure
 * `portfolio_analysis_with_python_classes.ipynb`: An object-oriented architecture evaluating diverse financial asset strategies (ESG, Income, Speculative, Defensive).
-* `monte_carlo_sims_practice.ipynb`: A stochastic engine simulating cumulative probabilities of success ($PoS$) across sequential regulatory phases.
+* `monte_carlo_sims_determine_drug_probability_of_success.ipynb`: A stochastic engine simulating cumulative probabilities of success ($PoS$) across sequential regulatory phases.
 
-## Methodology & Mathematical Framework
+## Methodology & Mathematical Framework (including personal notes)
 
 ### 1. Financial Portfolio Risk Framework (`portfolio_analysis_with_python_classes.ipynb`)
 The financial analysis module utilizes Python classes to encapsulate historical asset parameters and compute core risk-adjusted return metrics:
