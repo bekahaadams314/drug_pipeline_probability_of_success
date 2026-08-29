@@ -3,10 +3,6 @@
 ## Summary:
 This repository presents a simulation framework designed to model stage-gated clinical trial progression, evaluate expected portfolio Net Present Value (NPV) distributions, and quantify tail risk using 95% Value at Risk (VaR). We explore a classic Monte Carlo approach and a cleaner object-oriented approach. 
 
-## Repository Structure:
-* `portfolio_analysis_with_python_classes.ipynb`: An object-oriented architecture evaluating diverse financial asset strategies (ESG, Income, Speculative, Defensive).
-* `monte_carlo_sims_determine_drug_probability_of_success.ipynb`: A stochastic engine simulating cumulative probabilities of success ($PoS$) across sequential regulatory phases.
-
 ## 1. Mathematical Formulation:
 
 ### Stage-Gated Decision Dynamics:
