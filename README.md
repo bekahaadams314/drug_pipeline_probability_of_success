@@ -17,7 +17,7 @@ The cumulative probability of a candidate reaching commercial launch after stage
 
 $$P(\text{Approval}) = \prod_{k=1}^{N} p_k$$
 
-For this project, I thought it would be interesting to use a Monte Carlo process where each stage is represented as a probability distribution. These are values that I just looked up on Google to get a sense of the success of each stage and the probability behavior realistically. 
+For this project, I thought it would be interesting to use a Monte Carlo simulation where each stage is represented as a probability distribution. These are values that I just looked up on Google to get a sense of the success of each stage and the probability behavior realistically. 
 
 ### Discounted Expected Valuation
 Given a discount rate $r$, expected commercial market payoff $V$, and stage completion times $\tau_k$, the expected cumulative present value of candidate $i$ factors in intermediate abandonment states:
